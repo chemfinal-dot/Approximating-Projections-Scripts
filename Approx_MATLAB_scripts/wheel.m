@@ -1,6 +1,7 @@
 function [M,m,alpha] = wheel(n)
 % Returns wheel graph
 % Independence number = floor((n-1)/2)
+
 M = zeros(n);
 for i=1:(n-1)
     M(n,i)=1;
