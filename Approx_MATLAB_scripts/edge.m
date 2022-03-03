@@ -3,5 +3,6 @@ function [M] = edge(i,j,n)
 
 M=zeros(n);
 M(i,j)=1;
+
 end
 
