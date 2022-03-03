@@ -1,5 +1,5 @@
 function [Theta, X1] = LovTheta(G)
-% phi_lin Computes formulation of phi_quad for a graph of size n
+% LovTheta Computes formulation of the Lovasz Theta function for a graph of size n
 %  max (0): tr(Y*J)
 % s.t. (1): tr(Y)=1
 %      (2): Y(i,j)=0 if (i,j) an edge
